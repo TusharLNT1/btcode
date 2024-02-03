@@ -1,0 +1,72 @@
+.heading-logo {
+  width: 60px;
+  margin-top: 10px;
+  height: 60px;
+}
+
+.heading-top {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.heading-text {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-top: 12px;
+}
+
+.heading-desc {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.main-content-below-submit {
+  width: 80px;
+  margin-top: 20px;
+  height: 60px;
+  font-size: 30px;
+  background-color: rgb(24, 220, 190);
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.main-content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+}
+
+
+
+/*
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+*/
