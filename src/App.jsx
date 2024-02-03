@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import logo from './assets/logo.png'
 import './App.css';
-import TextArea from './components/textArea';
+import TextArea from './components/TextArea';
 
 function App() {
 
